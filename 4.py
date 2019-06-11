@@ -1,5 +1,6 @@
 n=int(input()
-if n%2!=0:
+mod=n%2
+if mod>0:
   print("Odd")
 else:
   print("Even")
